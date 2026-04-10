@@ -1,0 +1,18 @@
+#celybox {
+    -fx-background-size: cover;
+    -fx-background-image: url("calculator_background.jpeg");
+    -fx-opacity: 0.8;
+}
+.label {
+    -fx-text-fill: #930b1e;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-text-fill: #930b1e;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.8;
+    -fx-border-color: #930b1e;
+}

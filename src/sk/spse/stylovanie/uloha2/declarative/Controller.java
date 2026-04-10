@@ -1,4 +1,4 @@
-package sk.spse.uloha2.declarative;
+package sk.spse.stylovanie.uloha2.declarative;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;

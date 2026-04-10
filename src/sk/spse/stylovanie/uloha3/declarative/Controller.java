@@ -1,4 +1,4 @@
-package sk.spse.uloha3.declarative;
+package sk.spse.stylovanie.uloha3.declarative;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -33,14 +33,9 @@ public class Controller {
     public void linkOpen() {
         try {
             Desktop.getDesktop().browse(new URI("http://spse-po.sk"));
-    }   catch (Exception e) {
+        }   catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-
-    @FXML
-    public void rychlorotuj(MouseEvent event) {
-        obrazok.setRotate(slider.getValue());
-    }
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="celybox" alignment="TOP_RIGHT" stylesheets="@styl.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sk.spse.uloha1.declarative.Controller">
+    <children>
+        <HBox alignment="CENTER_RIGHT" spacing="20">
+
+            <padding>
+                <Insets topRightBottomLeft="10" />
+            </padding>
+
+            <Label stylesheets="@styl.css" text="Stupne Celzia:" />
+
+            <TextField fx:id="Cfield" onKeyTyped="#convertCtoF" prefHeight="54.0" prefWidth="281.0" style="-fx-padding: 10 20 10 20;" stylesheets="@styl.css" text="0" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" stylesheets="@styl.css" text="°C" />
+        </HBox>
+        <HBox alignment="CENTER_RIGHT" spacing="20">
+            <padding>
+                <Insets topRightBottomLeft="10" />
+            </padding>
+            <children>
+                <Label stylesheets="@styl.css" text="Stupne Fahrenheita:" />
+                <TextField fx:id="Ffield" onKeyTyped="#convertFtoC" style="-fx-padding: 10 20 10 20;" stylesheets="@styl.css" text="0" />
+                <Label stylesheets="@styl.css" text="°F" />
+            </children>
+        </HBox>
+    </children>
+</VBox>
