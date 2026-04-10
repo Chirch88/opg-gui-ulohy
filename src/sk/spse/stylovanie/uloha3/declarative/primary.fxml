@@ -22,7 +22,7 @@
     <left>
         <ImageView fx:id="obrazok" fitHeight="190.0" fitWidth="193.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
             <image>
-                <Image url="@spse_kosa.jpg" />
+                <Image url="@spse_logo.png" />
             </image>
         </ImageView>
     </left>
